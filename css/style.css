@@ -1,0 +1,994 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gilroy;
+}
+
+.menu__link:hover {
+    border-bottom: 3px solid #000dff;
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 20px 20px;
+
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: Gilroy;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+.title::before,
+.title::after {
+    content: "";
+    width: 42%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 50%;
+}
+
+.title::before {
+    left: 0;
+}
+
+.title::after {
+    right: 0;
+}
+
+.header__top {
+    background-color: #65256F;
+}
+
+.header__top .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header__column {
+    color: #FFFFFF;
+
+}
+
+.header__column span {
+    font-weight: 600;
+    color: #FBC70E;
+}
+
+.header__column span:last-child {
+    margin-left: 15px;
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.logo {
+    flex: 0 1 20%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 70%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    flex: 0 1 80%;
+    color: #2A2828;
+}
+
+.menu__link {
+    font-size: 20px;
+    color: #2A2828;
+    transition: 0.5s;
+}
+
+.header__btn {
+
+    background-color: #65256F;
+    color: #FFFFFF;
+    width: 150px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+
+}
+
+/* ////////////////////////////////////{[№1 Armada]}//////////////////////////////// */
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.ibg {
+    background: url(../images/Rectangle\ 70.png) center/ cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.ibg__fone {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.ibg .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.ibg__text {
+    flex: 0 1 50%;
+}
+
+.ibg__text h2 {
+    font-family: Gilroy;
+    font-weight: 600;
+}
+
+.ibg__text p {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.ibg__title {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 50px;
+    position: relative;
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 25px 0px;
+}
+
+.ibg__title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 5px;
+    background-color: #FFFFFF;
+
+}
+
+
+.btn2 {
+    width: 50%;
+    background-color: #FFC957;
+    padding: 15px 0;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.ibg__logo {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ibg__logo img {
+    margin-bottom: 50px;
+}
+
+.services {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+
+
+.services .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* height: 100%;
+    padding: 70px 0; */
+}
+
+.services__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 1 23%;
+    height: 500px;
+    box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 50px 20px;
+}
+
+.services__text1 {
+    font-size: 25px;
+
+    font-family: Gilroy;
+    font-weight: 400;
+}
+
+
+
+.services__text2 {
+    font-size: 15px;
+    font-family: Gilroy;
+    font-weight: 400;
+
+
+}
+
+.services__block a {
+    font-size: 20px;
+    font-family: Gilroy;
+    font-weight: 400;
+    color: #753ED6;
+}
+
+.works {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+
+.works .conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 15px 0;
+}
+
+.work__card {
+    position: relative;
+    flex: 0 1 30%;
+    margin: 15px 0;
+}
+
+.work__card img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.work__card .ibg__fone {
+    height: 100%;
+}
+
+
+.work__button {
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn__work {
+    width: 350px;
+    height: 50px;
+    background: #65256F;
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.work__card p {
+    width: 50%;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    line-height: 25px;
+}
+
+.production .conteiner {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+}
+
+.card__prod {
+    width: 100%;
+    flex: 0 1 30%;
+}
+
+.production__foto img {
+    width: 100%;
+}
+
+.price .conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.card__price {
+    flex: 0 1 20%;
+    padding: 20px 0;
+}
+
+.text__price1 {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 0;
+
+}
+
+.text__price2 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4C1F8C;
+}
+
+.price__button {
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.price__btn {
+    width: 350px;
+    height: 50px;
+    background-color: #65256F;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.customers .conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+
+
+}
+
+.card__customers {
+    width: 100%;
+    flex: 0 1 15%;
+}
+
+.card__customers img {
+    width: 168px;
+}
+
+.our__team .conteiner {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+
+
+}
+
+.card__team {
+    width: 100%;
+}
+
+.team__text1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 30px 0;
+    color: #000000;
+
+}
+
+.team__text2 {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 24px;
+    color: #6F6C6C;
+}
+
+.free__app h2 {
+    text-align: center;
+    font-size: 32px;
+    padding: 60px 0 20px 0;
+    font-family: Gilroy;
+    font-weight: 600;
+    color: #343434;
+}
+
+.free__app p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Gilroy;
+    font-weight: 400;
+    color: #585858;
+}
+
+.free__app .conteiner {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+
+}
+
+.app__input {
+    width: 100px;
+
+}
+
+.inp {
+    width: 315px;
+    height: 47px;
+    background: #ECE8E8;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 30px 0;
+    color: #737272;
+    font-size: 18px;
+    font-family: Gilroy;
+    font-weight: 400;
+}
+
+.app__btn {
+    width: 226px;
+    height: 47px;
+    margin: 30px 0;
+    background: #65256F;
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #3A3A3A;
+    width: 100%;
+    height: 500px;
+
+}
+
+.the__end .conteiner {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0 0 0;
+    align-items: flex-start;
+
+}
+
+.footer__end {
+    flex: 0 1 20%;
+}
+
+.footer__end h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer__end p {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 15px;
+    color: #BCBBBB;
+    padding: 30px 0 0 0;
+    display: block;
+}
+
+.footer__end a {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 15px;
+    color: #BCBBBB;
+    padding: 10px 0 0 0;
+    display: block;
+}
+
+/* ////////////////////////////////////{[№2 Services]}//////////////////////////////// */
+
+#wrapper__sevices {
+    padding: 10px 0 0 0;
+    margin: 15px 0 0 0;
+}
+
+#services__scn {
+    margin: 15px 0 0 0;
+}
+
+.services__block1 img {
+    width: 100%;
+}
+
+.services__bigblock {
+    flex: 0 1 69%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services__bigblock div {
+    flex: 0 1 48%;
+}
+
+.services__blockcow {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 28%;
+    height: 748px;
+}
+
+
+.services__lastblock {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 28%;
+    height: 368px;
+}
+
+#header__navi {
+    padding-bottom: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#services__scn .conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+.services__block1 {
+    position: relative;
+    margin: 5px 0;
+}
+
+.services__block1 p {
+    font-family: Gilroy;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 36px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title2 {
+    font-size: 40px;
+    font-family: Gilroy;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+.title2::before,
+.title2::after {
+    content: "";
+    width: 38%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 50%;
+}
+
+.title2::before {
+    left: 0;
+}
+
+.title2::after {
+    right: 0;
+}
+
+.our__advantage {
+    width: 100%;
+}
+
+.our_advantage .conteiner {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.advantage__block {
+    width: 100%;
+}
+
+.advantage__block p {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+/* ////////////////////////////////////{[№3 AboutUs]}//////////////////////////////// */
+
+.wrapper {
+    padding: 50px 0 0 0;
+    margin: 15px 0 0 0;
+}
+
+h2 {
+    margin: 30px;
+}
+
+.about__comp p {
+
+    width: 100%;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 23px;
+    color: #4C4C54;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title3 {
+    font-size: 40px;
+    font-family: Gilroy;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+.title3::before,
+.title3::after {
+    content: "";
+    width: 38%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 50%;
+}
+
+.title3::before {
+    left: 0;
+}
+
+.title3::after {
+    right: 0;
+}
+
+.question .conteiner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px 0 40px 0;
+    height: 100%;
+
+}
+
+.question__card {
+    flex: 0 1 23%;
+    margin: 0 50px;
+}
+
+.question__card h2 {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    padding: 25px 0 0 0;
+
+}
+
+.our__history {
+    background: url(../images/Rectangle\ 161.png) center / cover no-repeat;
+    padding: 0px 0;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.our__history .conteiner {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.history__card {
+    position: relative;
+    flex: 0 1 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.history__card h3 {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 20px 10px;
+    width: 85px;
+    height: 80px;
+    border: 8px solid #00ff1a;
+    border-radius: 40%;
+
+}
+
+.history__card p {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+
+.our__history .ibg__fone {
+    /* position: absolute; */
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: rgba(0, 0, 0, 0.591)
+}
+
+.history__title {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    z-index: 5;
+    flex: 0 1 100%;
+    margin-bottom: 50px;
+
+}
+
+.customers2 .conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+/* ////////////////////////////////////{[№4 Contacts]}//////////////////////////////// */
+
+#contacts__wrapper {
+    padding-top: 5%;
+}
+
+.contacts__info h2 {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+    padding-bottom: 10%;
+}
+
+.contacts__block {
+    display: flex;
+}
+
+.into__contacts {
+    flex: 0 1 30%;
+    padding-bottom: 30px;
+}
+
+.into__contacts img {
+    padding-right: 10px;
+}
+
+.into__contacts h3 {
+    display: inline-block;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 24px;
+    color: #A4A4A4;
+}
+
+.into__contacts p {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    padding: 20px 0 0 0;
+}
+
+/* ////////////////////////////////////{[№5 Portfolio]}//////////////////////////////// */
+
+.portfolio {
+
+    padding-top: 30px;
+}
+
+.portfolio .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    height: 1277px;
+
+}
+
+.portfolio__block img {
+    width: 100%;
+}
+
+.portfolio__block {
+    position: relative;
+}
+
+.port__firstblock {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 49%;
+    height: 577px;
+}
+
+
+.portfolio__bigblock {
+    flex: 0 1 49%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.portfolio__bigblock div {
+    flex: 0 1 47%;
+}
+
+.portfolio__bigblock img {
+    width: 100%;
+}
+
+.portfolio__bigblock .portfolio__block1 {
+    flex: 0 1 100%;
+    height: 275px;
+}
+
+
+.portfolio p {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.portfolio__block1 .text__block1 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+.portfolio__block .ibg__fone {
+    height: 96.5%;
+}
+
+.port__second {
+    order: 2;
+}
+
+.port__second_big {
+    order: 1;
+}
+
+.port__second_big .portfolio__block1 {
+    margin: 0 0 20px;
+}
+
+
+.text__block2 {
+    position: absolute;
+    top: 40%;
+}
+
+.text__block3 {
+    position: absolute;
+    top: 80%;
+}
+
+.text__block4 {
+    position: absolute;
+    top: 91%;
+}
+
+.text__block0 {
+    top: 91.5%;
+}
+
+
+
+/* ////////////////////////////////////{[№6 Production]}//////////////////////////////// */
+.production {
+    padding-top: 4%;
+}
+
+.equipment .conteiner {
+    text-align: center;
+}
+
+.text__equipment {
+    padding: 30px 0 0 0;
+}
+
+.text__equipment p {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+}
+
+.card__equipment {
+    padding: 50px 0 0 0;
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+.card__equipment img {
+    width: 100%;
+}
+
+.card__equipment p {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 24px;
+    bottom: 15%;
+    left: 32%;
+}
